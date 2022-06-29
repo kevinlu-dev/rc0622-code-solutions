@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Libra Baskerville',
+      serif;
+  font-size: 56px;
+}
+
+h2 {
+    font-family: 'Roboto',
+      sans-serif;
+    font-style: italic;
+}
+
+p.paraOne {
+    font-family: 'Libra Baskerville',
+      serif;
+
+}
+
+p.paraTwo {
+    font-family: 'Roboto',
+      sans-serif;
+}
+
+body {
+  line-height: 25px;
+}
