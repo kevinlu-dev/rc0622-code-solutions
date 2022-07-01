@@ -1,0 +1,61 @@
+body {
+  background-color: #1996da;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+  padding: 25px;
+}
+
+.white-circle {
+  width: 35%;
+  border: none;
+  border-radius: 100%;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  color: white;
+}
+
+.column-thirds {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.info {
+  padding: 0 40px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-weight: lighter;
+  color: white;
+}
