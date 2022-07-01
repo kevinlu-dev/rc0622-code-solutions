@@ -1,5 +1,5 @@
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -19,38 +19,19 @@
   max-width: 700px;
 }
 
-.left-column {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 40px;
+.column-half {
+  width: 50%;
+  margin: 25px 50px;
+  padding: 0 50px;
 }
 
-.right-column {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 40px;
+.column-one-fourth {
+  width: 25%;
 }
 
-.column-twenty-percent {
-  width: 150px;
-}
-
-.column-eighty-percent {
-  width: 300px;
-  text-align: left;
-  padding-top: 35px;
-}
-
-.column-twenty-percent-two {
-  width: 150px;
-  margin-top: 50px;
-}
-
-.column-eighty-percent-two {
-  width: 300px;
-  text-align: left;
-  padding-top: 35px;
-  margin-top: 50px;
+.column-three-fourths {
+  padding-top: 40px;
+  width: 75%;
   margin-left: 5px;
 }
 
@@ -87,7 +68,7 @@ button {
   border-color: rgb(189 0 0);
   width: 200px;
   height: 50px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
   color: rgb(189 0 0);
   background-color: white;
