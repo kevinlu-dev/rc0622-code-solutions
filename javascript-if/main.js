@@ -33,11 +33,8 @@ function isOldEnoughToDrive(person) {
 }
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person.age >= 0) {
-    return false;
-  } else {
-    return true;
-  }
+  var oldEnoughToDrink = person.age <= 0;
+  return oldEnoughToDrink;
 }
 
 function categorizeAcidity(pH) {
