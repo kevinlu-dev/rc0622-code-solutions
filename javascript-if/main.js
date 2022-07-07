@@ -48,7 +48,7 @@ function categorizeAcidity(pH) {
   if ((pH <= 14) && (pH > 7)) {
     msg = 'base';
   }
-  if ((pH < 0) && (pH > 14)) {
+  if ((pH < 0) || (pH > 14)) {
     msg = 'invalid pH level';
   }
   return msg;
