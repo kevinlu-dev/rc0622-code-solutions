@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+div.bg-color {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.bg-color.lighton {
+  background-color: #fef9f1;
+}
+
+div.bg-color.lightoff {
+  background-color: #111;
+}
+
+button.light-bulb.turnedon {
+  background-color: #faea84;
+  padding: 5rem;
+  border: 2px none #faea84;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 0 0 40px 10px rgb(229 195 0 / 20%);
+}
+
+button.light-bulb.turnedoff {
+  background-color: #252525;
+  padding: 5rem;
+  border: 2px none #252525;
+  border-radius: 100%;
+  position: relative;
+  box-shadow: 0 -10px 2px 2px rgb(0 0 0 / 20%);
+}
